@@ -35,22 +35,19 @@ jobs:
           MIDDLE_NAME: The
           LAST_NAME: Octocat
 
-        # deploy: 
-          # uses: JamesIves/github-pages-deploy-action@4.1.4
-        # env:
-        # lint:
-          # run: npm run lint:ts
-          # run: npm run lint:css
-        # secret: secrets.PASSWORD
-        # test: 
-        #   run: npm test
-        # timedDeploy:
-        #     schedule: - cron:
-        # docker1: docker/login-action
-        # docker2: docker/metadata-action
-        # docker3: docker/build-push-action
-        # hacker: lirantal/is-website-vulnerable.github.io
-        # conditional: 
-        #   if: 
-        # mail: dawidd6/action-send-mail
-        # stats: anmol098/waka-readme-stats
+# uses: JamesIves/github-pages-deploy-action@4.1.4
+# env:
+# run: npm run lint:ts
+# run: npm run lint:css
+# secrets.PASSWORD
+# run: npm test
+# schedule:
+# - cron:
+# docker/login-action
+# docker/metadata-action
+# docker/build-push-action
+# lirantal/is-website-vulnerable
+# .github.io
+# if: 
+# dawidd6/action-send-mail
+# anmol098/waka-readme-stats
