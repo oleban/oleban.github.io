@@ -34,3 +34,26 @@ jobs:
           FIRST_NAME: Mona
           MIDDLE_NAME: The
           LAST_NAME: Octocat
+
+        # deploy: validateText(
+        #     buildText,
+        #     'uses: JamesIves/github-pages-deploy-action@4.1.4'
+        # ),
+        # env: validateText(buildText, 'env:'),
+        # lint:
+        #     validateText(buildText, 'run: npm run lint:ts') &&
+        #     validateText(buildText, 'run: npm run lint:css'),
+        # secret: validateText(buildText, 'secrets.PASSWORD'),
+        # test: validateText(buildText, 'run: npm test'),
+        # timedDeploy:
+        #     validateText(buildText, 'schedule:') &&
+        #     validateText(buildText, '- cron:'),
+        # docker1: validateText(buildText, 'docker/login-action'),
+        # docker2: validateText(buildText, 'docker/metadata-action'),
+        # docker3: validateText(buildText, 'docker/build-push-action'),
+        # hacker:
+        #     validateText(buildText, 'lirantal/is-website-vulnerable') &&
+        #     validateText(buildText, '.github.io'),
+        # conditional: validateText(buildText, 'if: '),
+        # mail: validateText(buildText, 'dawidd6/action-send-mail'),
+        # stats: validateText(buildText, 'anmol098/waka-readme-stats')
