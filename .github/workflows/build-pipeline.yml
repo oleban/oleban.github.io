@@ -26,7 +26,7 @@ jobs:
       - name: Run styles lint and format check
         run: npm run lint:css
       - name: Run tests
-       run: npm test
+        run: npm test
   deploy:
     needs: build
     runs-on: ubuntu-latest
@@ -45,7 +45,7 @@ jobs:
          not-a-secret: Eurovision
       - name: Build
         run: npm run build
-      - name: Deploy 🚀
+      - name: Deploy
        if: github.ref == 'refs/heads/develop'
        uses: JamesIves/github-pages-deploy-action@4.1.4
        with:
